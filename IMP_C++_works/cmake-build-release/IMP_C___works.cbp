@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="IMP_C___works"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IMP_C___works">
+				<Option output="/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/IMP_C___works" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexkay/MEPHI/IMP_C++_works/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 IMP_C___works"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IMP_C___works/fast">
+				<Option output="/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/IMP_C___works" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexkay/MEPHI/IMP_C++_works/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 IMP_C___works/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexkay/MEPHI/IMP_C++_works/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ax01a.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex01a.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex01b.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex01c.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex01d.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex02a.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex02aMOD.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex02b.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex03a.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex03b.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex04a.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex04b.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex05a.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex05b.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex05c.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex06a.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex06b.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex06c.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex07a.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex08a.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex08b.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex09a.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex09b.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex10a.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex11a.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex11b.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex12a.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex13a.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex13b.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex14a.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex14b.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex15a.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex16a.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/ex17a.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/mycom.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/mycom.h">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/myio.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/myio.h">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/mynet.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/mynet.h">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/myprog.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/myprog.h">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/myrand.c">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/myrand.h">
+			<Option target="IMP_C___works"/>
+		</Unit>
+		<Unit filename="/home/alexkay/MEPHI/IMP_C++_works/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

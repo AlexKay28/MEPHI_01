@@ -1,0 +1,164 @@
+Gtk-Message: 12:02:36.926: Failed to load module "canberra-gtk-module"
+Gtk-Message: 12:02:36.927: Failed to load module "canberra-gtk-module"
+[7512:7512:1206/120237.007737:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+[7512:7512:1206/120237.264900:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[7658:1:1206/120240.496714:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.497101:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.497409:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.497666:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.497951:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.498266:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.498540:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.498817:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.499121:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.499946:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.501428:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.501758:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.501984:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.502260:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.502593:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.502792:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.503158:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.503421:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.503654:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.503876:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.504119:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.504325:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.504527:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.504792:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.505043:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.505258:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.505502:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7658:1:1206/120240.505704:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Gtk-Message: 12:03:06.514: Failed to load module "canberra-gtk-module"
+Gtk-Message: 12:03:06.516: Failed to load module "canberra-gtk-module"
+[7880:7880:1206/120306.597079:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+[7880:7880:1206/120306.843040:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[8025:1:1206/120308.633954:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.634915:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.635253:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.635584:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.635811:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.635969:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.636136:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.636291:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.636459:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.636614:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.637057:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.637306:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.637489:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.637701:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.637930:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.638084:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.638254:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.638406:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.638567:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.638726:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.638885:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.639036:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.639194:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.639345:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.639506:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.639657:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.639824:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8025:1:1206/120308.639977:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8011:16:1206/120311.894846:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[8011:16:1206/120311.895009:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[8277:1:1206/120336.960888:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8277:1:1206/120336.961432:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8277:1:1206/120337.064924:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8277:1:1206/120337.065337:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8296:1:1206/120346.269575:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8296:1:1206/120346.270401:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8325:14:1206/120358.008708:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[8325:14:1206/120358.008792:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[8347:12:1206/120358.742307:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[8347:12:1206/120358.742434:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[8364:12:1206/120400.550794:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[8364:12:1206/120400.550868:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[8364:12:1206/120400.603434:ERROR:peer_connection.cc(5218)] channel label not found
+[8364:12:1206/120401.282014:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[8364:12:1206/120401.282093:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[8364:12:1206/120401.286686:ERROR:peer_connection.cc(5218)] channel label not found
+[8364:12:1206/120401.424430:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[8364:12:1206/120401.424609:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[8364:12:1206/120401.468380:ERROR:peer_connection.cc(5218)] channel label not found
+[8575:17:1206/120440.067593:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[8575:17:1206/120440.067698:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[7884:7906:1206/120440.135140:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[7884:7906:1206/120440.135245:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[8364:13:1206/120440.489715:ERROR:stun_port.cc(96)] Binding request timed out from 0.0.0.x:52751 (any)
+[7884:7906:1206/120441.882503:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[7884:7906:1206/120441.882656:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[8625:1:1206/120456.283238:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8625:1:1206/120456.283484:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8575:13:1206/120502.967844:ERROR:batching_media_log.cc(26)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: open context failed"}
+[8575:1:1206/120502.968367:ERROR:batching_media_log.cc(26)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_COULD_NOT_OPEN
+[8859:12:1206/120612.756580:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[8859:12:1206/120612.756666:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[8953:1:1206/120630.206849:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[8953:1:1206/120630.207201:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[9026:13:1206/120643.833149:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[9026:13:1206/120643.833225:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[9026:13:1206/120643.974060:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[9026:13:1206/120643.974170:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[9026:13:1206/120644.088474:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[9026:13:1206/120644.088606:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[8364:12:1206/120645.116947:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[8364:12:1206/120645.117022:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[8364:12:1206/120645.127018:ERROR:peer_connection.cc(5218)] channel label not found
+[8364:12:1206/120645.181116:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[8364:12:1206/120645.181179:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[8364:12:1206/120645.280807:ERROR:peer_connection.cc(5218)] channel label not found
+[8395:23:1206/120647.212685:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[8395:23:1206/120647.212777:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[7880:7880:1206/120659.778723:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[9392:12:1206/120812.755268:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[9392:12:1206/120812.755404:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[8395:23:1206/120844.813676:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[8395:23:1206/120844.813768:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[8395:23:1206/120911.784555:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[8395:23:1206/120911.784651:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[8395:23:1206/121049.939644:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[8395:23:1206/121049.939796:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[10290:1:1206/121911.474707:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[7880:7880:1206/121941.328638:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[8011:16:1206/122004.081776:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[8011:16:1206/122004.081869:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[10475:1:1206/122006.714306:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[10475:1:1206/122006.714730:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Fontconfig error: Cannot load default config file
+[10474:1:1206/122036.217193:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[10474:1:1206/122036.217467:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[10906:1:1206/122351.513115:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[10906:1:1206/122351.513661:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[10906:13:1206/122351.993858:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+[10906:13:1206/122351.993932:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[10906:1:1206/122354.522781:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[10906:1:1206/122354.524680:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[10906:1:1206/122354.530144:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[10906:1:1206/122354.534661:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11062:1:1206/122734.858965:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11062:1:1206/122734.859442:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11062:1:1206/122734.862974:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11062:1:1206/122734.863381:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11062:1:1206/122734.869988:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11062:1:1206/122734.870373:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11062:1:1206/122734.926958:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11062:1:1206/122734.927233:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11062:1:1206/122734.932363:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11062:1:1206/122734.952919:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11159:1:1206/122802.259717:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11159:1:1206/122802.260101:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11191:1:1206/122816.019340:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11191:1:1206/122816.019924:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11191:1:1206/122816.021199:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11191:1:1206/122816.021784:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11191:1:1206/122816.023322:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11191:1:1206/122816.023761:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11191:1:1206/122816.025680:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11191:1:1206/122816.025966:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11256:1:1206/122823.224062:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11256:1:1206/122823.224571:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11256:1:1206/122823.230852:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[11256:1:1206/122823.231192:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.

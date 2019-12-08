@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alexkay/MEPHI/IMP_C++_works/ex03a.c
+stdio.h
+-
+stdlib.h
+-
+sys/types.h
+-
+unistd.h
+-
+
+/home/alexkay/MEPHI/IMP_C++_works/ex03b.c
+stdio.h
+-
+stdlib.h
+-
+sys/types.h
+-
+unistd.h
+-
+sys/ipc.h
+-
+sys/msg.h
+-
+
