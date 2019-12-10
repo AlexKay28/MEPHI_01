@@ -8,7 +8,11 @@ class R3:
     def __init__(self, x, y, z):
         self.x, self.y, self.z = x, y, z
         # метка на принадлежность точки сфере
-        self.bool = True if (x*x+y*y+z*z) > 1 else False
+        # self.bool = True if (x*x+y*y+z*z) > 1 else False
+
+    # проверка точки на "хорошесть"
+    def point_check(self):
+        return True if (self.x**2 + self.y**2 + self.z**2) > 1 else False
 
     # Сумма векторов
     def __add__(self, other):

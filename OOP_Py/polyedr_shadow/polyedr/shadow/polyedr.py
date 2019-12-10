@@ -162,7 +162,7 @@ class Polyedr:
                         # print(vertexes[n - 1].x, vertexes[n - 1].y,'  ||  ', vertexes[n].x, vertexes[n].y)
                         # print('[',self.edges[n].beg.x, '] ','[',self.edges[n].beg.y, '] AND ',
                         # '[',self.edges[n].fin.x, '] ','[',self.edges[n].fin.y, '] \n' )
-                        if vertexes[n-1].bool or vertexes[n].bool:
+                        if vertexes[n - 1].point_check() or vertexes[n].point_check():
                             dx = abs(self.edges[n].beg.x - self.edges[n].fin.x)
                             dy = abs(self.edges[n].beg.y - self.edges[n].fin.y)
                             self.sum_of_edges += sqrt(dx**2 + dy**2)
