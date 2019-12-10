@@ -30,21 +30,20 @@ void* myjobt(void* d)
   data_t* dd = (data_t *)d; 
 
   n1 = dd->n / dd->nt;
-
   h1 = (dd->b - dd->a) / dd->nt;
-
   a1 = dd->a + h1 * dd->mt;
 
-  if (dd->mt<dd->nt-1) b1 = a1 + h1; else b1 = dd->b;
+  if 
+    (dd->mt<dd->nt-1) b1 = a1 + h1; 
+  else 
+    b1 = dd->b;
 
   dd->s = integrate(f1,a1,b1,n1);
 
   printf("mt=%d a1=%le b1=%le n1=%d s1=%le\n",dd->mt,a1,b1,n1,dd->s);
 
   pthread_mutex_lock(&mut); // lock
-
   *dd->sum += dd->s;
-
   pthread_mutex_unlock(&mut); // unlock
 
   return 0;
@@ -68,7 +67,7 @@ void ThreadInit()
     (data+i)->nt=nt;
     (data+i)->mt=i;
     (data+i)->sum = &sum;
-    if (pthread_create(threads+i, 0, myjobt, (void*)(data+i)))
+    if (pthread_create(threads+i,0,myjobt,(void*)(data+i)))
       myerr("Can not create thread",2);
   }
 
@@ -101,7 +100,8 @@ int main(int argc, char *argv[])
   }
 
   sscanf(argv[1],"%d",&nt);
-  if (nt<1) nt = 1; mt = 0;
+  if (nt<1) nt = 1; 
+  mt = 0;
 
   t = mytime(0);
 

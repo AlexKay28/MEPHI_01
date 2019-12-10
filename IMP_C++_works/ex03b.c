@@ -58,10 +58,8 @@ int main(int argc, char *argv[])
       mp--;
   }
 
-
-  //передача информации родителем кадлому потомку
   if (mp == 0){
-    msgid = msgget(MSG_ID, (MSG_PERM | IPC_CREAT));
+    msgid = msgget(MSG_ID, MSG_PERM | IPC_CREAT);
     msg.type = 888;
     for(i=0;i<np;i++)
       msg.buf[i] = pids[i];
