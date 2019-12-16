@@ -36,7 +36,9 @@ int main(int argc, char *argv[])
   else {
     MPI_Recv(&a, 1, MPI_DOUBLE, mp-1, MY_TAG, MPI_COMM_WORLD, &status);
     a = a + 1.0;
-    MPI_Send(&a, 1, MPI_DOUBLE, (mp+1) % np, MY_TAG, MPI_COMM_WORLD);
+    //а нет ли тут проблемы в случае когда np = np-1???
+    //в чем заключается идея получения остатка ?? 
+    MPI_Send(&a, 1, MPI_DOUBLE, ((mp+1) % np), MY_TAG, MPI_COMM_WORLD);
   }
 
   t1 = MPI_Wtime()-t1;

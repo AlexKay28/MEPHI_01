@@ -60,7 +60,7 @@ int main(int argc, char *argv[])
 
     omp_set_num_threads(nt);
 
-    #pragma omp parallel
+    #pragma omp parallel //дир
     {
       int mt = omp_get_thread_num();
 

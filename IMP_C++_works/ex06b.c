@@ -22,42 +22,45 @@ int main(int argc, char *argv[])
   a2 = mp * 3.14;
   a3 = -1;
 
+  //исключаем случае когда был запущен только один процесс
   if (np>1){
 
     sleep(1);
-
+    //номер прцоесса четный
     if (mp%2==0){
 
+      //операция передачи данных их процесса mp -> mp+1
       if (mp+1<np){
         MPI_Sendrecv(&a2,1,MPI_DOUBLE,mp+1,0,
-	             &a3,1,MPI_DOUBLE,mp+1,0,
+	                   &a3,1,MPI_DOUBLE,mp+1,0,
                      MPI_COMM_WORLD,&status);
         fprintf(stderr,"%02d <-> %02d\n",mp,mp+1);
       }
 
+      
       if (mp>0){
         MPI_Sendrecv(&a2,1,MPI_DOUBLE,mp-1,0,
                      &a1,1,MPI_DOUBLE,mp-1,0,
                      MPI_COMM_WORLD,&status);
         fprintf(stderr,"%02d <-> %02d\n",mp,mp-1);
       }
-
     }
-	    
+	  
+    //номер прцоесса нечетный  
     if (mp%2==1){
 
       if (mp>0){
-	MPI_Sendrecv(&a2,1,MPI_DOUBLE,mp-1,0,
-	             &a1,1,MPI_DOUBLE,mp-1,0,
-                     MPI_COMM_WORLD,&status);
-	fprintf(stderr,"%02d <-> %02d\n",mp,mp-1);
+	          MPI_Sendrecv(&a2,1,MPI_DOUBLE,mp-1,0,
+	                       &a1,1,MPI_DOUBLE,mp-1,0,
+                         MPI_COMM_WORLD,&status);
+	          fprintf(stderr,"%02d <-> %02d\n",mp,mp-1);
       }
 
       if (mp+1<np){
-        MPI_Sendrecv(&a2,1,MPI_DOUBLE,mp+1,0,
-                     &a3,1,MPI_DOUBLE,mp+1,0,
-                     MPI_COMM_WORLD,&status);
-        fprintf(stderr,"%02d <-> %02d\n",mp,mp+1);
+            MPI_Sendrecv(&a2,1,MPI_DOUBLE,mp+1,0,
+                         &a3,1,MPI_DOUBLE,mp+1,0,
+                         MPI_COMM_WORLD,&status);
+            fprintf(stderr,"%02d <-> %02d\n",mp,mp+1);
       }
 
     }
