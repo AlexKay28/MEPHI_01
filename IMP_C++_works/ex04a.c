@@ -12,22 +12,24 @@
 #define MSG_PERM 0600
 #define LBUF     10
 
-typedef struct tag_msg_t
-{ int n; double buf[LBUF]; } msg_t;
+// message template
+typedef struct tag_msg_t { int n; double buf[LBUF]; } msg_t;
 
 int np, mp;
-int msgid;
-msg_t msg; 
+int msg_id;
+msg_t msg; //данная переменная определяет пространоство памяти для процессов
 
 double a = 0;
 double b = 1;
 int ni = 1000000000;
 double sum = 0;
-
+//===============================================================================
 double f1(double x);
+//целевая функция
 double f1(double x) { return 4.0/(1.0+x*x); }
-
+//===============================================================================
 double myjobp(int mp);
+//алгоритм разбиения и численного вычисления интеграла ответственного участка
 double myjobp(int mp)
 {
   int n1; double a1, b1, h1, s1;
@@ -43,8 +45,9 @@ double myjobp(int mp)
 
   return s1;
 }
-
+//================================================================================
 void NetInit(int np, int* mp);
+//инициализация требуемого кол-ва процессов!!!
 void NetInit(int np, int* mp)
 {
   int i; pid_t spid = 0;
@@ -52,8 +55,9 @@ void NetInit(int np, int* mp)
   if (np>1){
     i = 1;
     while (i<np){
-      if (spid>0 || i==1){ *mp=i; spid = fork();}
-      if (spid==0) return;
+
+      if (spid > 0 || i==1){ *mp=i; spid = fork();}
+      if (spid == 0) return;
       i++;
     }
   }
@@ -62,6 +66,7 @@ void NetInit(int np, int* mp)
   return;
 }
 
+//================================================================================
 int main(int argc, char *argv[])
 {
   int i; double t;
@@ -76,24 +81,31 @@ int main(int argc, char *argv[])
   t = mytime(0);
 
   if (np<2)
+    //если процесс один, то мы в тупую вычисляем интеграл
     sum = integrate(f1,a,b,ni);
   else {
-    NetInit(np,&mp);
+    //несколько процессов
+    NetInit(np,&mp); //инициализация np процессов и их вычисление!
 
     if (mp == 0)
       msgid = msgget(MSG_ID, MSG_PERM | IPC_CREAT);
-    else
+    else 
       while((msgid = msgget(MSG_ID, MSG_PERM))<0);
 
     sum = myjobp(mp);
 
+
+    //работа по сбору результатов вычислений
     if (mp>0){
+      //если процесс наследник, то он отправляет результат своих вычислений
       msg.n = 1; msg.buf[0] = sum;
       msgsnd(msgid, &msg, sizeof(msg_t), 0);
     }
     else{
+      //если процесс родитель, то он принимает результат своих вычислений
       for(i=1;i<np;i++){
-        msgrcv(msgid,&msg,sizeof(msg_t),0,0);
+        //суммирование площадей по получаемой информации
+        msgrcv(msgid, &msg, sizeof(msg_t), 0, 0);
         sum = sum + msg.buf[0];
       }
       msgctl(msgid,IPC_RMID,(struct msqid_ds *)0);

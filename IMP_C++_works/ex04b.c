@@ -15,10 +15,11 @@ double a = 0;
 double b = 1;
 int ni = 1000000000;
 double sum = 0;
-
+//===============================================================================
 double f1(double x);
 double f1(double x) { return 4.0/(1.0+x*x); }
-
+//===============================================================================
+// стоит обратить внимание что это уже не функция, это метод!
 void* myjobt(void* m);
 void* myjobt(void* m)
 {
@@ -35,7 +36,7 @@ void* myjobt(void* m)
 
   return 0;
 }
-
+//===============================================================================
 int main(int argc, char *argv[])
 {
   int i; double t;
@@ -52,13 +53,16 @@ int main(int argc, char *argv[])
   if (nt<2)
     sum = integrate(f1,a,b,ni);
   else {
+    //вся суть от тяжелого процесса, тут реализована легким процессом с потоками!!
+    //обрати внимание, код выполняется сразу при проверке условия.. жесть
+    // ???
     if (!(threads = (pthread_t*) malloc(nt*sizeof(pthread_t))))
       myerr("server: not enough memory",1);
-
+    //инициализация nt числа тредов
     for (i=0; i<nt; i++)
       if (pthread_create(threads+i,0,myjobt,(void*)((long long int)i)))
         myerr("server: cannot create thread",2);
-    
+    //ожидание окончания выполнения тредов
     for (i=0; i<nt; i++)
       if (pthread_join(threads[i],0))
         myerr("server: cannot wait thread",3);

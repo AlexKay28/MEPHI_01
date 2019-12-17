@@ -33,8 +33,7 @@ int main(int argc, char *argv[])
   i = 0; pids[i] = pid; i++;
 
   while (i<np){
-    //в данном месте программа запускает отдельный поток в случае если 
-    if (spid>0 || i==1) spid = fork(); 
+    if (spid>0 || i==1) spid = fork();
     if (spid>0) pids[i] = spid;
     i++;
     if (spid>0) sleep(1);

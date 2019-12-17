@@ -22,10 +22,13 @@ void myjobt(int mt)
   int n1; double a1, b1, h1, s;
 
   n1 = ni / nt;
+
   h1 = (b - a) / nt;
+
   a1 = a + h1 * mt;
-  if (mt<nt-1) b1 = a1 + h1; 
-  else b1 = b;
+
+  if (mt<nt-1) b1 = a1 + h1; else b1 = b;
+
   s = integrate(f1,a1,b1,n1);
 
   printf("mt=%d a1=%le b1=%le n1=%d s1=%le\n",mt,a1,b1,n1,s);
