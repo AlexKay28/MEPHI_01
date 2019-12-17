@@ -184,7 +184,7 @@ void ShrMemInit()
 
     s_un.val = 1; semctl(semid,0,SETVAL,s_un); // unlock
   }
-  else {
+  else {nd
     while((shmid = shmget(SHM_ID,sizeof(msg_t),PERMS)) < 0);
 
     if ((msg = (msg_t*) shmat(shmid, 0, 0)) == NULL)
