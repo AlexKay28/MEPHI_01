@@ -14,9 +14,11 @@ double b = 1;
 int ni = 1000000000;
 double sum = 0;
 
+//сама функция которую нужно проигнтегрировать
 double f1(double x);
 double f1(double x) { return 4.0/(1.0+x*x); }
 
+//метод(функция) интегрирующая выраженин методом центральных прямоугольников
 double myjob(int mp);
 double myjob(int mp)
 {
@@ -34,7 +36,8 @@ double myjob(int mp)
 
 int main(int argc, char* argv[])
 {
-  MyNetInit(&argc,&argv,&np,&mp,&nl,pname,&tick);
+  //what's this?? where can I find some code of it??
+  MyNetInit(&argc,&argv,&np,&mp,&nl,pname,&tick); 
 
   fprintf(stderr,"Netsize: %d, process: %d, system: %s, tick=%12le\n",np,mp,pname,tick);
   sleep(1);
@@ -60,6 +63,8 @@ int main(int argc, char* argv[])
     else
       MPI_Send(&sum, 1, MPI_DOUBLE, 0, MY_TAG, MPI_COMM_WORLD);
 
+    //ожидание окончания процесса до того момента пока он не будем вызван всеми 
+    //процессами коммуникатора
     MPI_Barrier(MPI_COMM_WORLD);
     t3 = MPI_Wtime();
   }
