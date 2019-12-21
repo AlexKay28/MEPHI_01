@@ -1,5 +1,5 @@
 #!/usr/bin/env -S python3 -B
-
+from pytest import approx
 import unittest
 from shadow.polyedr import Polyedr
 
@@ -9,13 +9,13 @@ class Tests(unittest.TestCase):
     def test_case1(self):
         # куб полностью вне сферы со сторонами 1 1 1
         test1 = Polyedr(f"data/test_case1.geom")
-        assert test1.sum_of_edges == 7110.716
+        assert test1.sum_of_edges == approx(7110.716, 2)
 
     def test_case2(self):
         # тетраедр полностью вне фигуры
         test2 = Polyedr(f"data/test_case2.geom")
         print(5)
-        assert test2.sum_of_edges == 10183.055
+        assert test2.sum_of_edges == approx(10183.055, 2)
 
     def test_case3(self):
         # куб полностью внутри сферы, хороших точек нет
@@ -30,19 +30,19 @@ class Tests(unittest.TestCase):
     def test_case5(self):
         # тетраедр частично в сфере, только одна хорошая точка
         test5 = Polyedr(f"data/test_case5.geom")
-        assert test5.sum_of_edges == 618.089
+        assert test5.sum_of_edges == approx(618.089, 2)
 
     def test_case6(self):
         # тетраедр частично в сфере, только одна "нехорошая" точка
         test6 = Polyedr(f"data/test_case6.geom")
-        assert test6.sum_of_edges == 7372.072
+        assert test6.sum_of_edges == approx(7372.072, 2)
 
     def test_case7(self):
         # параллелепипед частично в сфере, 4 точки хороших, выступают по оси Z
         test7 = Polyedr(f"data/test_case7.geom")
-        assert test7.sum_of_edges == 2867.525
+        assert test7.sum_of_edges == approx(2867.525, 2)
 
     def test_case8(self):
         # параллелепипед частично в сфере, 4 точки хороших, выступают по отрицательному направлению оси Х
         test8 = Polyedr(f"data/test_case8.geom")
-        assert test8.sum_of_edges == 5140.199
+        assert test8.sum_of_edges == approx(5140.199, 2)

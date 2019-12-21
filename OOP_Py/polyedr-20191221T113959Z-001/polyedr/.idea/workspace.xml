@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c68a398-cd94-4c89-9ab4-4d117a7edc90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../polyedr-20191221T113959Z-001.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/polyedr.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/r3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/tk_drawer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/babem.geom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/box.geom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ccc.geom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/cow.geom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/cube.geom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/king.geom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test_case1.geom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test_case2.geom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test_case3.geom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test_case4.geom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test_case5.geom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test_case6.geom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test_case7.geom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test_case8.geom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_shadow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shadow/polyedr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_edge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_facet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_segment.py" afterDir="false" />
-    </list>
+    <list default="true" id="8c68a398-cd94-4c89-9ab4-4d117a7edc90" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,8 +27,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hmwrks/hw_6_1_4_test.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -66,7 +36,7 @@
       <recent name="$PROJECT_DIR$/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.my_test">
+  <component name="RunManager" selected="Python.test_edge">
     <configuration name="my_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="polyedr" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.my_test" />
         <item itemvalue="Python.test_edge" />
+        <item itemvalue="Python.my_test" />
         <item itemvalue="Python.run_shadow" />
       </list>
     </recent_temporary>
@@ -164,21 +134,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1840" height="278" key="GridCell.Tab.0.bottom" timestamp="1576937002011">
-      <screen x="57" y="27" width="1863" height="1053" />
+    <state x="381" y="27" width="642" height="741" key="#test_edge" timestamp="1576938386438">
+      <screen x="49" y="27" width="1317" height="741" />
     </state>
+    <state x="381" y="27" width="642" height="741" key="#test_edge/49.27.1317.741/1366.0.1280.1024@49.27.1317.741" timestamp="1576938386438" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1576928142989">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576928142989" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1576928006455">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576928006455" />
     <state width="1840" height="278" key="GridCell.Tab.0.bottom/57.27.1863.1053@57.27.1863.1053" timestamp="1576937002011" />
-    <state width="1840" height="278" key="GridCell.Tab.0.center" timestamp="1576937002010">
-      <screen x="57" y="27" width="1863" height="1053" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1576928006455">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576928006455" />
     <state width="1840" height="278" key="GridCell.Tab.0.center/57.27.1863.1053@57.27.1863.1053" timestamp="1576937002010" />
-    <state width="1840" height="278" key="GridCell.Tab.0.left" timestamp="1576937002009">
-      <screen x="57" y="27" width="1863" height="1053" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1576928006455">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576928006455" />
     <state width="1840" height="278" key="GridCell.Tab.0.left/57.27.1863.1053@57.27.1863.1053" timestamp="1576937002009" />
-    <state width="1840" height="278" key="GridCell.Tab.0.right" timestamp="1576937002011">
-      <screen x="57" y="27" width="1863" height="1053" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1576928006455">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576928006455" />
     <state width="1840" height="278" key="GridCell.Tab.0.right/57.27.1863.1053@57.27.1863.1053" timestamp="1576937002011" />
     <state width="1840" height="344" key="GridCell.Tab.1.bottom" timestamp="1576935353882">
       <screen x="57" y="27" width="1863" height="1053" />
@@ -196,9 +178,11 @@
       <screen x="57" y="27" width="1863" height="1053" />
     </state>
     <state width="1840" height="344" key="GridCell.Tab.1.right/57.27.1863.1053@57.27.1863.1053" timestamp="1576935353882" />
-    <state x="477" y="187" key="SettingsEditor" timestamp="1576935133030">
-      <screen x="57" y="27" width="1863" height="1053" />
+    <state x="344" y="12" key="SettingsEditor" timestamp="1576928000606">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="344" y="12" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576928000606" />
+    <state x="344" y="38" key="SettingsEditor/49.27.1317.741/1366.0.1280.1024@49.27.1317.741" timestamp="1576938396682" />
     <state x="477" y="187" key="SettingsEditor/57.27.1863.1053@57.27.1863.1053" timestamp="1576935133030" />
     <state x="651" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1576934765011">
       <screen x="57" y="27" width="1863" height="1053" />
